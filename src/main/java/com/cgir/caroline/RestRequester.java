@@ -35,13 +35,9 @@ public class RestRequester {
 			conn.disconnect();
 
 		} catch (MalformedURLException e) {
-
 			e.printStackTrace();
-
 		} catch (IOException e) {
-
 			e.printStackTrace();
-
 		}
 
 		return result.toString();
